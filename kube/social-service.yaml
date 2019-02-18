@@ -23,7 +23,7 @@ spec:
     spec:
       containers:
       - image: social-service:v1
-        imagePullPolicy: IfNotPresent
+        imagePullPolicy: Always
         name: social-service
         env:
           - name: POST_SERVICE_URI

@@ -23,7 +23,7 @@ spec:
     spec:
       containers:
       - image: user-service:v2
-        imagePullPolicy: IfNotPresent
+        imagePullPolicy: Always
         name: user-service
         env:
           - name: MONGO_URI

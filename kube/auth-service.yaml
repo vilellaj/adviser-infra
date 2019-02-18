@@ -24,7 +24,7 @@ spec:
     spec:
       containers:
       - image: auth-service:v1
-        imagePullPolicy: IfNotPresent
+        imagePullPolicy: Always
         name: auth-service
         env:
         - name: SECRET
