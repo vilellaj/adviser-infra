@@ -23,7 +23,7 @@ spec:
         run: auth-service
     spec:
       containers:
-      - image: auth-service:v1
+      - image: vilellaj/adviser-auth-service:latest
         imagePullPolicy: Always
         name: auth-service
         env:

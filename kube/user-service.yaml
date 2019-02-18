@@ -22,7 +22,7 @@ spec:
         run: user-service
     spec:
       containers:
-      - image: user-service:v2
+      - image: vilellaj/adviser-user-service:latest
         imagePullPolicy: Always
         name: user-service
         env:

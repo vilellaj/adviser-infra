@@ -22,7 +22,7 @@ spec:
         run: post-service
     spec:
       containers:
-      - image: post-service:v1
+      - image: vilellaj/adviser-post-service:latest
         imagePullPolicy: Always
         name: post-service
         env:

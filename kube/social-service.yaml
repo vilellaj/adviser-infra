@@ -22,7 +22,7 @@ spec:
         run: social-service
     spec:
       containers:
-      - image: social-service:v1
+      - image: vilellaj/adviser-social-service:latest
         imagePullPolicy: Always
         name: social-service
         env:
